@@ -13,7 +13,7 @@ CITY_CODE ={'101010100','101020100','101280100','101280600','101210100','1010301
 此外你如果你没有安装mongo数据库，还可以将书库库存储在本地，在**setting.py**中进行如下设置：
 ```
 ITEM_PIPELINES = {
-    'bossCrawl.pipelines.MongoPipeline': 300,
-    #'bossCrawl.pipelines.BosscrawlPipeline': 300,
+    #'bossCrawl.pipelines.MongoPipeline': 300,
+    'bossCrawl.pipelines.BosscrawlPipeline': 300,
 }
 ```
